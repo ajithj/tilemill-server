@@ -25,6 +25,7 @@ sudo dpkg-reconfigure --frontend noninteractive tzdata
 sudo apt-get update
 
 echo "Installing TileMill"
+apt-get install python-software-properties
 
 add-apt-repository -y ppa:developmentseed/mapbox
 apt-get update
